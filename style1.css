@@ -1,0 +1,199 @@
+body
+  {
+  	text-align:center;
+  }
+h1
+  {
+  	font-family: 'Aclonica', sans-serif;
+    font-size:3.75em;
+  }
+h2
+  {
+  	font-family: 'Chelsea Market', cursive;
+    font-size:2.5em;
+  }
+
+  /*NAVIGATION BAR*/
+
+.navbar,.nav-link
+  {
+  	margin:0;
+  	padding:1.25em;
+  }
+.navbar-brand
+  {
+  	font-family: 'Bebas Neue', cursive;
+  	font-size:3.125em;
+  }
+
+/*PARAGRAPH*/
+
+ p,.emi,.cpy
+   {
+   	font-family:'Open Sans', sans-serif;
+   	font-size:1.25em;
+   }
+.cpy
+  {
+  	color:white;
+  	font-size:0.625em;
+  	margin:1.875em 1.875em 0;
+  }
+
+/*ANCHOR TAG*/
+
+.anc
+  {
+  	text-align: center;
+  	font-family:'Open Sans', sans-serif;
+  }
+.f2
+  {
+    color:black;
+    font-size:1.25em;
+  }
+.f2:hover
+  {
+    color:red;
+  }
+
+/*DIFFERENT SECTIONS AND FOOTER*/
+
+#title,#description
+  {
+  	background-color:black;
+  	color:white; 
+  	margin:0;
+  }
+#title
+  {
+    text-align:left;
+    padding:6.25rem;
+  }
+
+#features,#colors,#full-features,#pricing,#purchase
+  {
+    background-color:lightgrey;
+    margin:0;
+  }
+#features
+  {
+    text-align:justify-all;
+    padding:6.25em;
+  }
+#colors
+  {
+  	text-align:center;
+  	padding:3.125em 0;
+  }
+#pricing
+  {
+  	padding:3.125em 0;
+  }
+#purchase
+  {
+  	padding-bottom: 1.25rem;
+  }
+#footer
+  {
+    background-color:black;
+  	padding:1.25rem;
+  }
+
+/*ALL IMAGES*/
+
+.front-img,.back-img
+  {
+  	height:43.75em;
+  	border-radius:312.5em;
+    padding:3.125em 37.5em;
+  }
+.cam
+  {
+    height:43.75em;
+    width:43.75;
+    padding:3.125em 31.25em;
+  }
+.wallet
+   {
+	  height:2.5em;
+   	width:2.5em;
+   	transform: rotate(15deg);
+   	margin-top:1.875em;
+   }
+.circle
+  {
+   height:0.625em;
+   width:0.625em;
+  }
+.processor
+  {
+  	height:12.5em;
+  	width:18.75em;
+  	position:absolute;
+  	right:18.75em;
+  	padding:1.25em;
+  }
+.diff,.a,.q
+  {
+    height:16.4375em;
+  }
+
+/*ALL BUTTONS*/
+
+.align
+  {
+   width:20%;
+  }
+ .dwn
+   {
+   	font-size: 1.25em;
+   	border-radius: 1em;
+   	margin:5% 3% 5% 0;
+   }
+.dw
+   {
+   	border-radius:1em;
+   	margin:0.625em;
+   	margin-top:1.875em;
+   }
+.dd
+  {
+  	font-size: 1.25em;
+  	border-radius:1em;
+  }
+.con
+  {
+  	border-radius:0.625em;
+  	color:black;
+  }
+
+/*LISTS*/
+
+.lis
+  {
+  	font-size:1.25em;
+  	font-family: 'Chelsea Market', cursive;
+    color:green;
+  }
+.ulis
+  {
+  	font-size:0.9375em;
+  	font-family:'Open Sans', sans-serif;
+    color:white;
+  }
+
+ /* 
+.carousel-control-next-icon:after
+  {
+      content: '>';
+      font-size: 25px;
+      color:black;
+  }
+
+.carousel-control-prev-icon:after
+  {
+      content: '<';
+      font-size: 25px;
+      color:black;
+  }*/
